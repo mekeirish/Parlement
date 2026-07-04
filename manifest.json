@@ -2,7 +2,7 @@
   "name": "Parlement",
   "short_name": "Parlement",
   "start_url": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#030712",
   "background_color": "#030712",
   "icons": [
