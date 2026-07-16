@@ -28,6 +28,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
+      # ⚠️ ÉTAPE MANQUANTE : Ajouter la plateforme Android
+      - name: Add Android Platform
+        run: npx cap add android
+
       - name: Capacitor Sync
         run: npx cap sync android
 
