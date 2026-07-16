@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Capacitor
+android/
+ios/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Ne PAS ignorer docs/ car GitHub Pages en a besoin
+# Ne PAS ignorer .github/ car c'est le workflow
